@@ -237,7 +237,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("exports.helloWorld = function () {\n  console.log('Hello, World!');\n};\n\n//# sourceURL=webpack:///./src/greeting.js?");
+eval("exports.helloWorld = function () {\n  console.log('Hello, World!');\n  console.log('Life is good at IE11');\n};\n\n//# sourceURL=webpack:///./src/greeting.js?");
 
 /***/ }),
 
