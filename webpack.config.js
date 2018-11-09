@@ -1,7 +1,15 @@
 const path = require('path')
 
+const PUBLIC_DIR = path.resolve(__dirname, 'public')
+
 module.exports = {
     entry: './src/main.js',
+    devServer: {
+      contentBase: PUBLIC_DIR,
+      port: 8082,
+      open: true,
+      historyApiFallback: true
+    },
     output: {
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
