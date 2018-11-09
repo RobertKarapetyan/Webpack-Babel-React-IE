@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-
 import Farewell from '../farewell/Farewell'
 import Greeting from '../greeting/Greeting'
 
 const navBarElement = require('./elements/NavBar')
+const footerElement = require('./elements/Footer')
+
+// require('../../styles/__layout.css')
 
 class Layout extends Component {
     constructor(props) {
@@ -11,13 +13,16 @@ class Layout extends Component {
 
         this.state = {
           'components' : [
-            { 'name': 'Farewell', 'visible': true, 'reference': Farewell },
-            { 'name': 'Greeting', 'visible': false, 'reference': Greeting }
+            { 'name': 'Farewell', 'visible': false, 'reference': Farewell },
+            { 'name': 'Greeting', 'visible': true, 'reference': Greeting }
           ]
         }
 
-        this.generateNavBar = () => {
-            return navBarElement.generate(this)
+        this.renderVisibleComponents = () => {
+          return this.state.components.map(component => {
+                    if (component.visible)
+                        return <div key={component.name} ><component.reference /></div>
+                })
         }
     }
 
@@ -25,10 +30,14 @@ class Layout extends Component {
       return (
         <div>  
           <section>
-            {this.generateNavBar()}
+            {navBarElement.generate(this)}
           </section>  
-
-          <section></section>
+          <section>
+            {this.renderVisibleComponents()}
+          </section>  
+          <section>
+            {footerElement.generate(this)}
+          </section>
         </div>
       );
     }
