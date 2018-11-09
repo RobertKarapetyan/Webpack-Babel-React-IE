@@ -4,6 +4,15 @@ const greetingHelper = require('./GreetingHelper')
 class Greeting extends Component {
     componentDidMount() {
       greetingHelper.helloWorld()
+      this.displayProps()
+    }
+
+    constructor(props) {
+      super(props)
+
+      this.displayProps = () => {
+        console.log(this.props)
+      }
     }
 
     render() {
