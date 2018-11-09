@@ -1,9 +1,9 @@
 const path = require('path')
-
+require("@babel/polyfill")
 const PUBLIC_DIR = path.resolve(__dirname, 'public')
 
 module.exports = {
-    entry: './src/main.js',
+    entry: ["@babel/polyfill", './src/main.js'],
     devServer: {
       contentBase: PUBLIC_DIR,
       port: 8082,
@@ -19,17 +19,19 @@ module.exports = {
         rules: [
           {
             test: /\.(js|jsx)$/,
-            exclude: /(node_modules|bower_components)/,
             use: {
               loader: 'babel-loader',
               options: {
-                presets: ['@babel/preset-env']
-              }
+                  presets: [
+                      "@babel/preset-env",
+                      "@babel/preset-react"
+                  ]
+              },
             }
           },
           {
-              test: /\.css$/,
-              use: ['style-loader', 'css-loader']
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
           }
         ]
       }
