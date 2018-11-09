@@ -5,7 +5,7 @@ import Greeting from '../greeting/Greeting'
 const navBarElement = require('./elements/NavBar')
 const footerElement = require('./elements/Footer')
 
-// require('../../styles/__layout.css')
+require('./Layout.css')
 
 class Layout extends Component {
     constructor(props) {
@@ -32,7 +32,7 @@ class Layout extends Component {
           <section>
             {navBarElement.generate(this)}
           </section>  
-          <section>
+          <section className='pad15pxFromLeft pad15pxFromTop'>
             {this.renderVisibleComponents()}
           </section>  
           <section>

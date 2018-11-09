@@ -7,4 +7,7 @@ npm i react react-dom --save-dev
 npm install @babel/preset-react --save-dev
 npm install webpack-dev-server --save-dev
 
+npm install css-loader --save-dev
+npm install style-loader --save-dev
+
 npm --version
