@@ -1,6 +1,6 @@
 const path = require('path')
 require("@babel/polyfill")
-const PUBLIC_DIR = path.resolve(__dirname, 'server/wwwroot')
+const PUBLIC_DIR = path.resolve(__dirname, 'public')
 
 module.exports = {
     entry: ["@babel/polyfill", './src/main.js'],
