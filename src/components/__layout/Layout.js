@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Farewell from '../farewell/Farewell'
 import Greeting from '../greeting/Greeting'
 import Outreach from '../outreach/Outreach'
+import About from '../about/About'
 
 const navBarElement = require('./elements/NavBar')
 const footerElement = require('./elements/Footer')
@@ -14,8 +15,9 @@ class Layout extends Component {
 
         this.state = {
           'components' : [
+            { 'name' : 'About', 'visible' : true, 'reference' : About },
             { 'name': 'Farewell', 'visible': false, 'reference': Farewell },
-            { 'name': 'Greeting', 'visible': true, 'reference': Greeting },
+            { 'name': 'Greeting', 'visible': false, 'reference': Greeting },
             { 'name': 'Outreach', 'visible': false, 'reference': Outreach }
           ]
         }

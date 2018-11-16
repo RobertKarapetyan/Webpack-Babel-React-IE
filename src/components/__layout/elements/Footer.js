@@ -2,7 +2,8 @@ import React from 'react'
 
 export function generate(_this) {
     return <section>
-                <div className="container body-content">
+                <br/>
+                <div className="container-fluid">
                     <hr />
                     <footer>
                         <p>&copy; {new Date().toDateString()} - Some Application</p>
