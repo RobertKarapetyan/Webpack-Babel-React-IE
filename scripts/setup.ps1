@@ -21,4 +21,7 @@ npm install style-loader --save-dev
 npm install superagent --save
 npm install @babel/polyfill --save 
 
+# Scaffold .NET Core Server 
+dotnet new webapi
+
 npm --version
