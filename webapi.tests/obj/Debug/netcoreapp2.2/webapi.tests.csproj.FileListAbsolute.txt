@@ -1,0 +1,17 @@
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.deps.json
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.runtimeconfig.json
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.runtimeconfig.dev.json
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.tests.pdb
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\bin\Debug\netcoreapp2.2\webapi.pdb
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csprojAssemblyReference.cache
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csproj.CoreCompileInputs.cache
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.AssemblyInfoInputs.cache
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.AssemblyInfo.cs
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.csproj.CopyComplete
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.dll
+C:\Users\person\source\repos\Webpack-Babel-React-IE\webapi.tests\obj\Debug\netcoreapp2.2\webapi.tests.pdb

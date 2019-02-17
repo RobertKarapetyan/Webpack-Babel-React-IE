@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\person\\source\\repos\\Webpack-Babel-React-IE\\webapi.tests\\webapi.tests.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
