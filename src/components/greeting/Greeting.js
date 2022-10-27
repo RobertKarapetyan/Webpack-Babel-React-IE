@@ -1,29 +1,16 @@
-import React, { Component } from 'react'
-const greetingHelper = require('./GreetingHelper')
+import React, { Component } from "react";
 
 class Greeting extends Component {
-    componentDidMount() {
-      greetingHelper.helloWorld()
-      this.displayProps()
-    }
-
-    constructor(props) {
-      super(props)
-
-      this.displayProps = () => {
-        console.log(this.props)
-      }
-    }
-
-    render() {
-      return (
-        <div>  
-          <p>Hello, World! from Greeting.js</p>
-          <button type="button" className="btn btn-success">Success</button>
-          
-        </div>
-      );
-    }
+  constructor(props) {
+    super(props);
   }
-  
-  export default Greeting
+  render() {
+    return (
+      <div>
+        <h3 style={{ margin: 10 }}>Greeting!</h3>
+      </div>
+    );
+  }
+}
+
+export default Greeting;

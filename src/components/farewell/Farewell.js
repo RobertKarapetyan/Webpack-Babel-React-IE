@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Farewell extends Component {
-    render() {
-      return (
-        <div>  
-          <p>Farewell! from Greeting.js</p>
-          <button type="button" className="btn btn-success">Success</button>  
-        </div>
-      );
-    }
+  render() {
+    return (
+      <div>
+        <h3 style={{ margin: 10 }}>Farewell!</h3>
+      </div>
+    );
   }
-  
-  export default Farewell
+}
+
+export default Farewell;
