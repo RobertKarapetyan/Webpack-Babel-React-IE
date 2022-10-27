@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Farewell from "../farewell/Farewell";
 import Greeting from "../greeting/Greeting";
-import Redux from "../about/Redux";
+import Redux from "../redux/Redux";
 
 const navBarElement = require("./NavBar");
 const footerElement = require("./Footer");

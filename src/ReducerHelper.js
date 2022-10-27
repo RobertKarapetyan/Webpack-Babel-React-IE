@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import counterReducer from "./components/about/Reducers/CounterReducer";
+import counterReducer from "./components/redux/reducers/CounterReducer";
 
 const allReducers = combineReducers({
   counterReducer,

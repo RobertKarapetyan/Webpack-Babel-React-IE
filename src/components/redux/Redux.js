@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { increment } from "./Actions/Increment";
-import { decrement } from "./Actions/Decrement";
+import { increment } from "./actions/Increment";
+import { decrement } from "./actions/Decrement";
 
 const mapStateToProps = (state) => {
   return {
