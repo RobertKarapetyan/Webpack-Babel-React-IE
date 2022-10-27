@@ -5,9 +5,15 @@ export function generate(_this) {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <ul className="navbar-nav">
         {_this.state.components.map((component) => {
+          let style = null;
+          if (component.visible) {
+            style = { fontWeight: "bold" };
+          }
+
           return (
             <li className="nav-item active" key={component.name}>
               <a
+                style={style}
                 className="nav-link"
                 href="#"
                 id={component.name}

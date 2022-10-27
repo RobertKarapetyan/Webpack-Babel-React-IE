@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Farewell from "../farewell/Farewell";
 import Greeting from "../greeting/Greeting";
-import About from "../about/About";
+import Redux from "../about/Redux";
 
 const navBarElement = require("./NavBar");
 const footerElement = require("./Footer");
@@ -12,7 +12,7 @@ class Layout extends Component {
 
     this.state = {
       components: [
-        { name: "About", visible: true, reference: About },
+        { name: "Redux", visible: true, reference: Redux },
         { name: "Farewell", visible: false, reference: Farewell },
         { name: "Greeting", visible: false, reference: Greeting },
       ],

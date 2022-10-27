@@ -6,6 +6,7 @@ npm install terser-webpack-plugin --save-dev
 
 # Install Babel
 npm install -D babel-loader @babel/core @babel/preset-env
+npm install @babel/polyfill --save 
 
 # Install React
 npm i react --save-dev
@@ -20,4 +21,6 @@ npm install style-loader --save-dev
 
 # Install HTTP Module 
 npm install superagent --save
-npm install @babel/polyfill --save 
+
+#Redux
+npm install redux react-redux --save-dev
