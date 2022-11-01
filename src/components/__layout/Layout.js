@@ -12,9 +12,9 @@ class Layout extends Component {
 
     this.state = {
       components: [
-        { name: "Redux", visible: true, reference: Redux },
+        { name: "Greeting", visible: true, reference: Greeting },
+        { name: "Redux", visible: false, reference: Redux },
         { name: "Farewell", visible: false, reference: Farewell },
-        { name: "Greeting", visible: false, reference: Greeting },
       ],
     };
 
